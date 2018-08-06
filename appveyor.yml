@@ -179,8 +179,29 @@ before_deploy:
         }
 
 artifacts :
-    path: myapp.zip
-    name: MyApp
+    path: C:/projects/rust/build/x86_64-pc-windows-gnu/cargo-0.30.0-dev-x86_64-pc-windows-gnu.tar.gz
+    name: cargo-0.30.0-dev-x86_64-pc-windows-gnu.tar.gz
+        
+    path: C:/projects/rust/build/x86_64-pc-windows-gnu/rustc-1.29.0-dev-x86_64-pc-windows-gnu.tar.gz
+    name: rustc-1.29.0-dev-x86_64-pc-windows-gnu.tar.gz
+    
+    path: C:/projects/rust/build/x86_64-pc-windows-gnu/rust-std-1.29.0-dev-x86_64-pc-windows-gnu.tar.gz
+    name: rust-std-1.29.0-dev-x86_64-pc-windows-gnu.tar.gz
+        
+    path: C:/projects/rust/build/x86_64-pc-windows-gnu/rust-mingw-1.29.0-dev-x86_64-pc-windows-gnu.tar.gz
+    name: rust-mingw-1.29.0-dev-x86_64-pc-windows-gnu.tar.gz
+        
+    path: C:/projects/rust/build/i686-pc-windows-gnu/cargo-0.30.0-dev-i686-pc-windows-gnu.tar.gz
+    name: cargo-0.30.0-dev-i686-pc-windows-gnu.tar.gz
+        
+    path: C:/projects/rust/build/i686-pc-windows-gnu/rustc-1.29.0-dev-i686-pc-windows-gnu.tar.gz
+    name: rustc-1.29.0-dev-i686-pc-windows-gnu.tar.gz
+    
+    path: C:/projects/rust/build/i686-pc-windows-gnu/rust-std-1.29.0-dev-i686-pc-windows-gnu.tar.gz
+    name: rust-std-1.29.0-dev-i686-pc-windows-gnu.tar.gz
+        
+    path: C:/projects/rust/build/i686-pc-windows-gnu/rust-mingw-1.29.0-dev-i686-pc-windows-gnu.tar.gz
+    name: rust-mingw-1.29.0-dev-i686-pc-windows-gnu.tar.gz
 # init:
 #   - ps: iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
 # on_finish:
